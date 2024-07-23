@@ -1,0 +1,84 @@
+
+
+.home-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #211F1C;    
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Roboto Mono';
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #606060;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+        }
+
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: #606060;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 20px;
+            animation: fadeIn 1ss 1.7s backwards;
+        }
+
+        img {
+            margin-left: 20px;
+            width: 35px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+
+    h2 {
+        color: #606060;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #E3A5C7;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #E3A5C7;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        border-radius: 10px;
+
+
+        &:hover {
+            transition: all 1s;
+            background: #E3A5C7;
+            color: #211F1C;
+        }
+    }
+}
