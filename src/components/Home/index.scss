@@ -17,6 +17,8 @@
         margin: 0;
         font-family: 'Roboto Mono';
         font-weight: 400;
+        cursor: default;
+        user-select: none;
 
         &::before {
             content: '<h1>';
@@ -59,6 +61,8 @@
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: 1s 1.8s backwards;
+        cursor: default;
+        user-select: none;
     }
 
     .flat-button {
@@ -93,5 +97,9 @@
         height: 800px;
         border-radius: 100px;
         animation: fadeIn 3s 1.8s backwards;
+        
+        &:hover {
+            cursor: move;
+        }
     }
 }

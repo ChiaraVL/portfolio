@@ -30,11 +30,9 @@ const Home = () => {
                 <h2>Ing. en Ciencias de la Computación e I.A.</h2>
                 <Link to='/contact' className='flat-button'>CONTÁCTAME</Link>
             </div>
-
             <div className='animation'>
                 <Spline scene="https://prod.spline.design/2H7TCptu3p-FHJL0/scene.splinecode" />
             </div>
-
         </div>
     );
 }
