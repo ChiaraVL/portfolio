@@ -12,7 +12,7 @@
     }
 
     h1 {
-        color: #211F1C;    
+        color: #f1f1f1;    
         font-size: 53px;
         margin: 0;
         font-family: 'Roboto Mono';
@@ -21,22 +21,24 @@
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
-            color: #606060;
-            font-size: 18px;
+            color: #fff;
+            font-size: 25px;
             position: absolute;
             margin-top: -40px;
             left: 15px;
+            opacity: 0.6;
         }
 
         &::after {
             content: '</h1>';
             font-family: 'La Belle Aurore';
-            color: #606060;
+            color: #fff;
             font-size: 18px;
             position: absolute;
             margin-top: 30px;
             margin-left: 20px;
             animation: fadeIn 1ss 1.7s backwards;
+            opacity: 0.6;
         }
 
         img {
@@ -50,7 +52,7 @@
     }
 
     h2 {
-        color: #606060;
+        color: #f1f1f1;
         margin-top: 20px;
         font-weight: 400;
         font-size: 15px;
