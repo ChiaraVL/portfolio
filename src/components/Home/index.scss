@@ -76,7 +76,7 @@
         border: 1px solid #E3A5C7;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: ease-in-out 1s 1.8s backwards;
         white-space: nowrap;
         border-radius: 10px;
 
@@ -91,10 +91,10 @@
     .animation {
         position: absolute;
         background: none;
-        width: 700px;
-        top: 0;
+        width: 50%;
+        top: 50px;
         right: 30px;
-        height: 800px;
+        height: 600px;
         border-radius: 100px;
         animation: fadeIn 3s 1.8s backwards;
         
