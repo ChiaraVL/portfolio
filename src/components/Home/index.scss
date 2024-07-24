@@ -83,4 +83,15 @@
             color: #211F1C;
         }
     }
+
+    .animation {
+        position: absolute;
+        background: none;
+        width: 700px;
+        top: 0;
+        right: 30px;
+        height: 800px;
+        border-radius: 100px;
+        animation: fadeIn 3s 1.8s backwards;
+    }
 }

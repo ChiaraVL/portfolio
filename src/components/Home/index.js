@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-s.png';
+import Spline from '@splinetool/react-spline';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import HeartLogo from './Logo';
+
 
 const Home = () => {
 
@@ -29,7 +30,11 @@ const Home = () => {
                 <h2>Ing. en Ciencias de la Computación e I.A.</h2>
                 <Link to='/contact' className='flat-button'>CONTÁCTAME</Link>
             </div>
-            <HeartLogo />
+
+            <div className='animation'>
+                <Spline scene="https://prod.spline.design/2H7TCptu3p-FHJL0/scene.splinecode" />
+            </div>
+
         </div>
     );
 }
