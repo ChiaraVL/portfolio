@@ -22,10 +22,14 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return (
                             <div className="box" key={idx}>
-                                <img src={port.cover} className="portfolio-image" alt="portfolio" onClick={() => window.open(port.url)}/>
-                                <div className="content">
-                                    <h2 className="title">{port.title}</h2>
+                                <div className="face front">
+                                    <img src={port.cover} className="portfolio-image" alt="portfolio"/>
+                                    <h3>{port.title}</h3>
+                                </div>    
+                                <div className="face back">
+                                    <h3 className="title">{port.title}</h3>
                                     <p className="description">{port.description}</p>
+                                    <button className="btn" onClick={() => window.open(port.url)}>Abrir código fuente</button>
                                 </div>
                             </div>
                         )
