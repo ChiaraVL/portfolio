@@ -1,5 +1,3 @@
-
-
 .home-page {
 
     .text-zone {
@@ -100,6 +98,42 @@
         
         &:hover {
             cursor: move;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1::before, 
+    .home-page h1::after{
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        .animation {
+            position: relative;
+            width: 400px;
+            height: auto;
+            top: 50px;
+            right: 0;
+            box-sizing: border-box;
+            margin: auto;
+            left: 0;
         }
     }
 }
