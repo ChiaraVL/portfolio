@@ -1,19 +1,19 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/images/EEG.png",
+            "cover": "EEG.png",
             "title": "Detección de Epilepsia usando EEG",
             "description": "Detección de la epilepsia con electroencefalogramas y aprendizaje automático.",
             "url": "https://github.com/ChiaraVL/EEG-Epilepsy-Detection-CV"
         },
         {
-            "cover": "/portfolio/images/reconocimiento.jpeg",
+            "cover": "reconocimiento.jpeg",
             "title": "Reconocimiento de dígitos",
             "description": "Sistema que reconoce dígitos escritos o trazados a mano en tiempo real mediante una cámara web.",
             "url": "https://github.com/ChiaraVL/ReconocimientoNo"
         },
         {
-            "cover": "/portfolio/images/RUTA.png",
+            "cover": "RUTA.png",
             "title": "Juego Ruta",
             "description": "Reinterpretación del juego de mesa ruta en aplicación web. Usando Java y SpringBoot",
             "url": "https://github.com/OscarMirandaPuentes/ArquitecturaSoftware-RUTA-"
