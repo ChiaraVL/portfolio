@@ -95,6 +95,12 @@
             }
         }
 
+        a.weather-link {
+            &:after {
+                content: 'WEATHER';
+            }
+        }
+
         a.active {
             svg {
                 color: #E3A5C7;

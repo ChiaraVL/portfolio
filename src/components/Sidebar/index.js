@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoSubtitle from '../../assets/images/logopreload.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faClose, faCloud, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
@@ -50,6 +50,15 @@ const Sidebar = () => {
                     to="/portfolio"
                 >
                     <FontAwesomeIcon icon={faSuitcase} color='fff' />
+                </NavLink>
+                <NavLink 
+                    onClick={() => setShowNav(false)}
+                    exact="true" 
+                    activeclassname="active" 
+                    className="weather-link" 
+                    to="/weather"
+                >
+                    <FontAwesomeIcon icon={faCloud} color='fff' />
                 </NavLink>
                 <FontAwesomeIcon 
                     onClick={() => setShowNav(false)}
