@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faSearch, faWater, faWind } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from "react-loaders";
-import './index.scss'
+import Cloud from '../../assets/images/cloud.png';
+import './index.scss';
 
 const Weather = () => {
 
@@ -32,8 +33,31 @@ const Weather = () => {
                     </div>
                     <div className='weather-box'>
                         <div className='info-weather'>
-                            < div className='weather'>
-                            
+                            <div className='weather'>
+                                <img src={Cloud} alt='clima'/>
+                                <p className='temperature'>16<span>°C</span></p>
+                                <p className='description'>Nubes Rotas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='weather-details'>
+                        <div className='humidity'>
+                            <FontAwesomeIcon className='icono' icon={faWater}/>
+                            <div className='text'>
+                                <div className='info-humidity'>
+                                    <span>0%</span>
+                                </div>
+                                <p>Humedad</p>
+                            </div>
+                        </div>
+                        <div className='wind'>
+                            <FontAwesomeIcon className='icono' icon={faWind}/>
+                            <div className='text'>
+                                <div className='info-wind'>
+                                    <span>0Km/h</span>
+                                </div>
+                                <p>Velocidad Viento</p>
                             </div>
                         </div>
                     </div>
