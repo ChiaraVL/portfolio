@@ -126,8 +126,9 @@
     }
 
     .box {
+      left: 10px;
       height: 400px;
-      max-width: calc(50% - 10px);
+      max-width: 60%;
     }
 
     .images-container {
