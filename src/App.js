@@ -13,10 +13,10 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Layout/>}>
-        <Route path='portfolio' element={<Home/>} />
+        <Route index element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='contact' element={<Contact/>} />
-        <Route path='projects' element={<Portfolio/>} />
+        <Route path='portfolio' element={<Portfolio/>} />
         <Route path='weather' element={<Weather/>} />
       </Route>
     </Routes>

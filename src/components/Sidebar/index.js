@@ -12,7 +12,7 @@ const Sidebar = () => {
 
     return (
         <div className='nav-bar'>
-            <Link className='logo' to='/portfolio'>
+            <Link className='logo' to='/'>
                 <img src={LogoSubtitle} alt="logo"/>
             </Link>
             <nav className={showNav ? 'mobile-show' : ''}>
@@ -20,7 +20,7 @@ const Sidebar = () => {
                     onClick={() => setShowNav(false)}
                     exact="true" 
                     activeclassname="active" 
-                    to="/portfolio"
+                    to="/"
                 >
                     <FontAwesomeIcon icon={faHome} color='fff' />
                 </NavLink>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                     exact="true" 
                     activeclassname="active" 
                     className="portfolio-link" 
-                    to="/projects"
+                    to="/portfolio"
                 >
                     <FontAwesomeIcon icon={faSuitcase} color='fff' />
                 </NavLink>
