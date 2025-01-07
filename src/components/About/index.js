@@ -23,7 +23,7 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={['S','o','b','r','e',' ','m','i']} idx={15}/>
                     </h1>
                     <p>
-                        Soy estudiante de ingeniería en el octavo semestre y estoy buscando ser parte de una 
+                        Soy estudiante de ingeniería y estoy buscando ser parte de una 
                         compañía de IT que desarrolle proyectos diversos y desafiantes.
                     </p>
                     <p>
