@@ -4,7 +4,7 @@
             "cover": "EEG.png",
             "title": "Detección de Epilepsia usando EEG",
             "description": "Detección de la epilepsia con electroencefalogramas y aprendizaje automático.",
-            "url": "https://github.com/ChiaraVL/EEG-Epilepsy-Detection-CV"
+            "url": "https://github.com/ChiaraVL/Epilepsy-Detection-CV"
         },
         {
             "cover": "reconocimiento.jpeg",
